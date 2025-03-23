@@ -1,0 +1,64 @@
+/* *@media (max-width: 1200px) */
+
+@media all and (max-width: 1200px) {
+  body header {
+    background-image: none;
+    text-align: center;
+  }
+
+  body header div {
+    margin: 0;
+    margin-top: 20px;
+  }
+}
+
+/* *@media (max-width: 992px)*/
+
+@media all and (max-width: 992px) {
+  body header div {
+    margin: 0;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #0B5345;
+    text-align: center;
+}
+
+  body header p {
+    padding: 10px 0 0 0;
+}
+
+  body header div:not(:last-of-type) {
+  margin: 0;
+}
+
+  article .description{
+    width: 100%;
+    margin: 20px 0 20px 100px;
+}
+
+  article .time, article .price {
+    vertical-align: middle;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 70px;
+    background-color: #81aea52b;
+}
+
+  article .time, article .price:not(:last-child){
+  margin-left: 120px;
+}
+  }
+
+  /* *@media (max-width: 780px)*/
+
+@media all and (max-width: 780px){
+  article .time, article .price {
+    width: 50%;
+    margin: 0 0 20px 40px;
+}
+  
+  article .description {
+  margin-left: 20px;
+}
+}
