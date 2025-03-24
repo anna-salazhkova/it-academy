@@ -15,8 +15,13 @@
 /* *@media (max-width: 992px)*/
 
 @media all and (max-width: 992px) {
+  body {
+    width: 100%;
+}
+
   body header div {
     margin: 0;
+    padding: 20px 0;  
     width: 100%;
     border: none;
     border-bottom: 1px solid #0B5345;
@@ -24,41 +29,48 @@
 }
 
   body header p {
-    padding: 10px 0 0 0;
+    padding: 10px 0;
 }
 
-  body header div:not(:last-of-type) {
-  margin: 0;
+  header div:not(:last-of-type) {
+    margin: 0; 
 }
 
   article .description{
+    margin: 0;
+    padding: 20px 0 20px 50px;
     width: 100%;
-    margin: 20px 0 20px 100px;
+}
+
+article .time, article .price:not(:last-child){
+  margin-left: 70px;
 }
 
   article .time, article .price {
-    vertical-align: middle;
+    width: 40%;
     text-align: center;
     font-size: 20px;
     font-weight: 700;
-    padding: 10px 70px;
+    padding: 10px 0;
     background-color: #81aea52b;
 }
 
-  article .time, article .price:not(:last-child){
-  margin-left: 120px;
+  article{
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+  } 
 }
-  }
 
   /* *@media (max-width: 780px)*/
 
 @media all and (max-width: 780px){
   article .time, article .price {
-    width: 50%;
-    margin: 0 0 20px 40px;
-}
-  
-  article .description {
-  margin-left: 20px;
-}
+    width: 80%;
+    margin-left: 30px;
+  }
+
+  article .description{
+    padding-left: 10px;
+  }
 }
