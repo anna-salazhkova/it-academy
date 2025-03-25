@@ -16,8 +16,7 @@
 
 @media all and (max-width: 992px) {
   body {
-    width: 100%;
-    overflow-x: hidden;
+    width: 100%;   
 }
 
   body header div {
@@ -30,10 +29,11 @@
 }
 
   body header p {
-    padding: 10px 0;
+    padding: 10px 0;  
+    overflow-x: hidden;
 }
 
-  header div:not(:last-of-type) {
+   body header div:not(:last-of-type) {
     margin: 0; 
 }
 
@@ -41,6 +41,7 @@
     margin: 0;
     padding: 20px 0 20px 50px;
     width: 100%;
+   
 }
 
 article .time, article .price:not(:last-child){
@@ -54,12 +55,14 @@ article .time, article .price:not(:last-child){
     font-weight: 700;
     padding: 10px 0;
     background-color: #81aea52b;
+    
 }
 
   article{
     width: 100%;
     max-width: 100%;
     align-items: center;
+   
   } 
 }
 
@@ -69,9 +72,11 @@ article .time, article .price:not(:last-child){
   article .time, article .price {
     width: 80%;
     margin-left: 30px;
+   
   }
 
   article .description{
     padding-left: 10px;
+  
   }
 }
