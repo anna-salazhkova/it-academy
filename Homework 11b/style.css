@@ -1,0 +1,65 @@
+  html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.svg__container{
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.svg__container svg{
+  width: 100%;
+  height: auto;
+}
+
+.shape {
+  animation: color-change 3s infinite, stroke-pulse 2s infinite;
+}
+
+@keyframes color-change {
+  0% { fill: #4f46e5; }   
+  50% { fill: #ec4899; }  
+  100% { fill: #4f46e5; } 
+}
+
+@keyframes stroke-pulse {
+  0% { stroke: #000; stroke-width: 2px; }
+  50% { stroke: #f59e0b; stroke-width: 4px; }
+  100% { stroke: #000; stroke-width: 2px; }
+}
+
+.animated-svg .icon {
+  transition: all 0.3s ease; 
+}
+
+.svg__container:hover .animated-svg .icon {
+  stroke: #0b024abc;      
+  stroke-width: 2px;    
+}
+
+.svg__container:hover {
+  transform: scale(1.5);}
+  
+
+.svg__container:hover .animated-svg #svg_2 {
+  fill: #e1ad80;       
+}
+
+.svg__container:hover .animated-svg path {
+  fill: #85ada0;       
+}
+
+.svg__container:hover .animated-svg ellipse{
+  fill: #ce85b5;        
+}
+
+.svg__container:hover .animated-svg rect {
+  fill: #6745c7;        
+}
