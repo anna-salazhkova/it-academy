@@ -28,6 +28,7 @@ html {
 
   body{
   background-color: #f5f5f5;
+ 
 }
 
 .form {
@@ -171,10 +172,12 @@ input[type="radio"] {
 }
 
 .required-star{
+  position: relative;
+  bottom: 2px;
+  right: 4px;
   font-weight: 600;
   font-size: 0.9em;
   margin-right: 10px;
-  margin-left: -3px;
   color: #444444;
 }
 .consent-label {
