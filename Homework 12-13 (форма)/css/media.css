@@ -1,0 +1,20 @@
+
+@media (max-width: 576px) {
+  .form__row, .radio-group {
+    flex-direction: column; 
+    flex-wrap: wrap;
+  }
+  
+  .form__input { 
+    width: 100%;
+  }
+
+  .consent-label {
+    flex-wrap: nowrap;
+}
+
+  .radio-option:not(:last-child) {
+    margin-bottom: 20px;
+}
+}
+
