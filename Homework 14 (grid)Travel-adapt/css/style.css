@@ -1,0 +1,93 @@
+html {
+  box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    min-width: 320px;
+  }
+
+.image__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  grid-template-rows: repeat(3, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.image__item {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex; 
+  justify-content: center; 
+  transition: all 0.5s ease-in-out;
+}
+
+.image__item::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5));
+  transition: opacity 0.1s ease-in-out;
+}
+
+.image__item:hover{
+  transform: scale(1.05);
+  z-index: 10;
+  
+  .image__title {
+    opacity: 0;
+  }
+}
+
+.image__item:hover::after {
+  opacity: 0;
+}
+
+.item-1 { 
+  background-image: url('../img/Spain.jpg'); 
+  grid-row: 1/4;
+}
+
+.item-2 { 
+  background-image: url('../img/Bali.jpg');
+  grid-column: 2/4; 
+}
+
+.item-3 { 
+  background-image: url('../img/Egypt.jpg');
+}
+
+.item-4 { 
+  background-image: url('../img/Czech.jpg'); 
+}
+
+.item-5 { 
+  background-image: url('../img/Turkey.jpg'); 
+}
+
+.item-6 { 
+  background-image: url('../img/Italy.jpg'); 
+}
+
+.image__title{
+  position: absolute;
+  top: 60px;
+  color: rgb(12, 10, 72);
+  font-size: 2.5rem;
+  font-weight: 500;
+  z-index: 2;
+  transition: opacity 0.2s ease-in-out;
+}
