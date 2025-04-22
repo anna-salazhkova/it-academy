@@ -6,45 +6,52 @@ let lastName = prompt('Введите вашу фамилию:');
 let firstName = prompt('Введите ваше имя:');
 let middleName = prompt('Введите ваше отчество:');
 
-// возраст
-let age = +prompt('Введите ваш возраст в годах:');
+if (!isNaN(lastName) || !isNaN(firstName) || !isNaN(middleName)) {
+  alert('Вы ввели некорректные данные!');
 
-
-// пол
-let genderMale = confirm('Ваш пол - мужской? Нажмите OK если "Да" или Отмена если "Нет"');
-
-let gender;
-if (genderMale) {
-  gender = 'мужской';
 } else {
-  gender = 'женский';
-}
+  // возраст
+  let age = +prompt('Введите ваш возраст в годах:');
 
-// пенсионный возраст
-let pensionAgeMale = 65;
-let pensionAgeFemale = 57;
+  if (!age || age < 0) {
+    alert('Вы ввели некорректный возраст!');
+  } else {
 
-let pensioner;
-if (genderMale) {
-  pensioner = age >= pensionAgeMale;
-} else {
-  pensioner = age >= pensionAgeFemale;
-}
+    // пол
+    let genderMale = confirm('Ваш пол - мужской? Нажмите OK если "Да" или Отмена если "Нет"');
 
-let isPensioner;
-if (pensioner) {
-  isPensioner = 'да';
-} else {
-  isPensioner = 'нет';
-}
+    let gender;
+    if (genderMale) {
+      gender = 'мужской';
+    } else {
+      gender = 'женский';
+    }
 
-// дополнительные данные
-let ageInDays = age * 365;
-let ageIn5Years = age + 5;
+    // пенсионный возраст
+    let pensionAgeMale = 65;
+    let pensionAgeFemale = 58;
+
+    let pensioner;
+    if (genderMale) {
+      pensioner = age >= pensionAgeMale;
+    } else {
+      pensioner = age >= pensionAgeFemale;
+    }
+
+    let isPensioner;
+    if (pensioner) {
+      isPensioner = 'да';
+    } else {
+      isPensioner = 'нет';
+    }
+
+    // дополнительные данные
+    let ageInDays = age * 365;
+    let ageIn5Years = age + 5;
 
 
-// сообщение
-let message = `
+    // сообщение
+    let message = `
 Ваше ФИО: ${lastName} ${firstName} ${middleName}
 Ваш возраст в годах: ${age}
 Ваш возраст в днях: ${ageInDays}
@@ -53,4 +60,6 @@ let message = `
 Вы на пенсии: ${isPensioner}
 `;
 
-alert(message);
+    alert(message);
+  }
+}
