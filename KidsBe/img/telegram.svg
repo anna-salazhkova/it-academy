@@ -1,0 +1,15 @@
+<svg width="40.313324" height="38.867249" viewBox="0 0 40.3133 38.8672" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip523_652">
+			<rect id="telegram (16) 1" rx="0.000000" width="15.125326" height="14.546903" transform="translate(12.593994 12.160187)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="Rectangle 6" x="0.500000" y="38.367249" rx="12.000000" width="37.867256" height="39.313316" transform="rotate(-90 0.500000 38.367249)" stroke="#E1DEFC" stroke-opacity="1.000000" stroke-width="1.000000"/>
+	<rect id="telegram (16) 1" rx="0.000000" width="15.125326" height="14.546903" transform="translate(12.593994 12.160187)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip523_652)">
+		<path id="XMLID_497_" d="M12.37 19.15L16.09 20.49L17.53 24.95C17.62 25.23 17.98 25.34 18.22 25.15L20.29 23.52C20.51 23.35 20.82 23.34 21.05 23.5L24.78 26.12C25.04 26.3 25.4 26.16 25.47 25.86L28.2 13.17C28.28 12.84 27.94 12.57 27.62 12.69L12.37 18.36C11.99 18.5 12 19.01 12.37 19.15ZM17.3 19.78L24.56 15.46C24.69 15.39 24.82 15.56 24.71 15.66L18.72 21.03C18.51 21.22 18.37 21.47 18.33 21.75L18.13 23.2C18.1 23.4 17.82 23.42 17.76 23.23L16.98 20.57C16.89 20.27 17.02 19.94 17.3 19.78Z" fill="#5B45FF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>

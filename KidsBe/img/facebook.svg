@@ -1,0 +1,15 @@
+<svg width="40.313316" height="38.867249" viewBox="0 0 40.3133 38.8672" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip25_105">
+			<rect id="facebook-social-logo (6) 1" rx="0.000000" width="15.125326" height="14.546903" transform="translate(12.593996 12.160187)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="Rectangle 6" x="0.500002" y="38.367249" rx="12.000000" width="37.867256" height="39.313316" transform="rotate(-90 0.500002 38.367249)" stroke="#E1DEFC" stroke-opacity="1.000000" stroke-width="1.000000"/>
+	<rect id="facebook-social-logo (6) 1" rx="0.000000" width="15.125326" height="14.546903" transform="translate(12.593996 12.160187)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip25_105)">
+		<path id="Vector" d="M17.85 14.66C17.85 14.56 17.87 14.35 17.9 14.03C17.93 13.71 18.05 13.37 18.28 13.02C18.5 12.67 18.86 12.35 19.37 12.07C19.87 11.8 20.59 11.66 21.54 11.66L24.21 11.66L24.21 14.46L22.25 14.46C22.06 14.46 21.88 14.53 21.72 14.66C21.56 14.8 21.47 14.93 21.47 15.06L21.47 16.8L24.21 16.8C24.18 17.14 24.15 17.47 24.11 17.79L24 18.64C23.96 18.92 23.91 19.19 23.87 19.43L21.45 19.43L21.45 27.2L17.85 27.2L17.85 19.43L16.1 19.43L16.1 16.8L17.85 16.8L17.85 14.66Z" fill="#5B45FF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>
